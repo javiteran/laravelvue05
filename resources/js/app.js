@@ -10,6 +10,9 @@ import './bootstrap/day'
 //TO-DO
 import './assetsjavi/bootstrap/css/bootstrap.min.css'
 //import './assetsjavi/bootstrap/css/bootstrap-extend.min.css'
+//import './assetsjavi/js/chart.min.js'
+//import './assetsjavi/js/bs-init.js'
+//import './assetsjavi/js/theme.js'
 //FIN
 
 Vue.use(ElementUI, {i18n: (key, value) => i18n.t(key, value)})
