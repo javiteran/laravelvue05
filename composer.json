@@ -16,6 +16,7 @@
         "laravel/framework": "^8.77",
         "laravel/sanctum": "^2.14",
         "laravel/tinker": "^v2.4.2",
+        "laravel/sail": "^1.0.1",
         "laravel/ui": "^3.3"
     },
     "require-dev": {
