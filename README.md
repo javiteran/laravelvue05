@@ -115,3 +115,73 @@ This will create:
 Every module loads dynamically.
 
 ## [Video](https://www.youtube.com/watch?v=0qKNlrmhgNg)
+
+
+## reconstruir carpeta VENDOR con un docker. (JAVI)
+
+        docker run --rm -u "$(id -u):$(id -g)" -v $(pwd):/var/www/html -w /var/www/html laravelsail/php81-composer:latest composer install --ignore-platform-reqs
+
+
+
+## Composer update
+
+    composer update 
+    para descargar la carpeta vendor
+
+## Instalar los paquetes de la aplicación
+
+    npm install 
+
+## Archivo .env
+
+## Generar Claves de la aplicación
+
+    php artisan key:generate
+
+    php artisan migrate
+    yarn install
+
+
+## Test de la aplicación
+
+    php artisan test
+
+## Viene sin compilar
+
+    La aplicación viene sin compilar. Es necesario compilar antes de que funcione
+
+    npm run watch 
+        or 
+    npm run hot 
+        - for hot reloading
+
+    ### Aunque yo para compilar he tenido que ejecutar
+
+    npm run development -- --watch
+
+
+## Arrancar el servicio
+
+    php artisan serve 
+    
+        e ir a http://127.0.0.1:8000
+
+## Creación usuario
+
+    Registrarse y crear nuevo usuario y contraseña
+
+
+## Error al crear nuevos módulos
+
+    resources/js/modules/alumno/router.js
+
+        cambiar el nombre de las variables iniciales a AlumnoList y AlumnoView
+
+    Eliminar la funcion GlobalFormatDate del fichero AlumnoList.vue
+
+
+## Creating module
+
+    You can easily create module with CRUD functionality.
+
+    php artisan make:module {ModuleName}
